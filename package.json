@@ -1,0 +1,15 @@
+{
+  "name": "droneswift",
+  "version": "1.0.0",
+  "description": "Send out the drones!",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dest": "node app.js \"dest\""
+  },
+  "author": "Neville Challinger",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2"
+  }
+}
