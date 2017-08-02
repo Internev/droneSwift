@@ -84,3 +84,7 @@ axios.all([getDrones(), getPackages()])
 
     console.log('RESULT\n****\nAssigned:', result.assignments, '\nUnassigned', result.unassignedPackageIds)
   }))
+  .catch(err => {
+    // I would handle errors properly in real code, promise!
+    console.log('Error retrieving/processing drone data:', err)
+  })
